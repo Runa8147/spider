@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import re
 
 # Define your target keyword(s)
-target_keywords = ["Surplus food sharing"]
+target_keywords = ["your_keyword"]
 
-url = "https://sharefood.eatrightindia.gov.in/"  # Replace with your desired URL
+url = "your_website_url"  # Replace with your desired URL
 
 # Download the webpage content
 response = requests.get(url)
